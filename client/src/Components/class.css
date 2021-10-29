@@ -1,0 +1,26 @@
+.classouter {
+    transition: all 0.3s;
+}
+.classes {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.classButton {
+  font-size: large;
+  border: 1px solid black;
+  padding: 10px;
+  height: 85vh;
+  min-height: 300px;
+  transition: all 0.3s;
+  width: 31vw;
+}
+.classButton h1{
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.classButton:hover {
+  cursor: pointer;
+  box-shadow: 0px 20px 20px 10px rgba(36, 36, 36, 0.2);
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
+    "dev": "nodemon index.js",
     "up": "knex migrate:latest",
     "down": "knex migrate:rollback",
     "seed": "knex seed:run",
@@ -12,6 +12,7 @@
     "databaseh": "heroku pg:psql -a YOUR_HEROKU_APP_NAME",
     "seedh": "heroku run knex seed:run -a YOUR_HEROKU_APP_NAME",
     "test": "cross-env NODE_ENV=testing jest --watchAll --verbose --runInBand",
+    "heroku-postbuild": "cd client && npm i && npm run build",
     "deploy": "git push heroku main"
   },
   "engines": {
