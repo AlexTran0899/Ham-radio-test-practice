@@ -1,0 +1,30 @@
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90vw;
+    margin:0 auto;
+}
+.questions h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.questions button{
+
+    text-align: left;
+    width: 80vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.nav-button{
+    /* margin-left:30vw ; */
+}
+.nav-button button{
+    width: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 0px;
+}

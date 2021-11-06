@@ -1,22 +1,48 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { UserContext } from "../UserContext";
+import Speech from 'react-speech';
+import './questions.css'
+
+const style = {
+    play: {
+        button: {
+            width: '28',
+            height: '28',
+            cursor: 'pointer',
+            pointerEvents: 'none',
+            outline: 'none',
+            backgroundColor: 'yellow',
+            border: 'solid 1px rgba(255,255,255,1)',
+            borderRadius: 6
+        },
+    }
+
+};
+
 
 const Questions = () => {
+
     const { value } = useContext(UserContext)
-    const [currentquestion,setcurrentquestion] = useState(0)
+    const [currentquestion, setcurrentquestion] = useState(0)
     const currentQuestionData = value?.subelement[0][currentquestion]
-    const [A,setA] = useState(null)
-    const [B,setB] = useState(null)
-    const [C,setC] = useState(null)
-    const [D,setD] = useState(null)
-    const nextQuestions = ()=> {
+    const readText = `${currentQuestionData.question}
+    'A'${currentQuestionData.A}
+    'B'${currentQuestionData.B}
+    'C'${currentQuestionData.C}
+    'D'${currentQuestionData.D}`
+
+    const [A, setA] = useState(null)
+    const [B, setB] = useState(null)
+    const [C, setC] = useState(null)
+    const [D, setD] = useState(null)
+    const nextQuestions = () => {
         setA(null)
         setB(null)
         setC(null)
         setD(null)
         setcurrentquestion(currentquestion + 1)
     }
-    const previousQuestions = ()=> {
+    const previousQuestions = () => {
         setA(null)
         setB(null)
         setC(null)
@@ -24,41 +50,76 @@ const Questions = () => {
         setcurrentquestion(currentquestion - 1)
     }
 
-    const checkAnswer = (answer)=>{
-        if(answer === currentQuestionData.correct_answer){
-            if (answer === 'A'){
+    const checkAnswer = (answer) => {
+        if (answer === currentQuestionData.correct_answer) {
+            if (answer === 'A') {
                 setA('green')
+                setB('gray')
+                setC('gray')
+                setD('gray')
             }
-            if (answer === 'B'){
+            if (answer === 'B') {
+                setA('gray')
                 setB('green')
+                setC('gray')
+                setD('gray')
             }
-            if (answer === 'C'){
+            if (answer === 'C') {
+                setA('gray')
+                setB('gray')
                 setC('green')
+                setD('gray')
             }
-            if (answer === 'D'){
+            if (answer === 'D') {
+                setA('gray')
+                setB('gray')
+                setC('gray')
                 setD('green')
-            }  
-        }else{
-            
+            }
+        } else {
+            if (answer === 'A') {
+                setA('gray')
+            }
+            if (answer === 'B') {
+                setB('gray')
+            }
+            if (answer === 'C') {
+                setC('gray')
+            }
+            if (answer === 'D') {
+                setD('gray')
+            }
+
         }
     }
-    
-    return (
-        <div className='Questions'>
-                <div>
-                    <h1>{currentQuestionData.question}</h1>
-                    <button style={{color:A}}onClick={()=> checkAnswer('A')}>{currentQuestionData.A}</button>
-                    <br />
-                    <button style={{color:B}} onClick={()=> checkAnswer('B')}>{currentQuestionData.B}</button>
-                    <br />
-                    <button style={{color:C}} onClick={()=> checkAnswer('C')}>{currentQuestionData.C}</button>
-                    <br />
-                    <button style={{color:D}} onClick={()=> checkAnswer('D')}>{currentQuestionData.D}</button>
-                    <br/>
-                    <button onClick={previousQuestions}>back</button>
-                    <button onClick={nextQuestions}>next</button>
+    useEffect(() => {
+        var msg = new SpeechSynthesisUtterance();
+        msg.text = readText;
+        window.speechSynthesis.speak(msg);
 
+    }, [currentquestion])
+
+
+
+    return (
+        <div className='questions'>
+            <div>
+
+                <h1>{currentQuestionData.question}</h1>
+                {/* <Speech styles={style} text={readText} stop pause /> */}
+                <button style={{ color: A }} onClick={() => checkAnswer('A')}>A.{currentQuestionData.A}</button>
+                <br />
+                <button style={{ color: B }} onClick={() => checkAnswer('B')}>B.{currentQuestionData.B}</button>
+                <br />
+                <button style={{ color: C }} onClick={() => checkAnswer('C')}>C.{currentQuestionData.C}</button>
+                <br />
+                <button style={{ color: D }} onClick={() => checkAnswer('D')}>D.{currentQuestionData.D}</button>
+                <br />
+                <div className='nav-button'>
+                    <button onClick={previousQuestions}>back</button>
+                    <button style={{ marginLeft: '20px' }} onClick={nextQuestions}>next</button>
                 </div>
+            </div>
         </div>
     );
 };

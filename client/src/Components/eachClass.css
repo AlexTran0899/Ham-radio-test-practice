@@ -10,7 +10,6 @@
   border: 1px solid black;
   text-align: center;
   font-size: large;
-  font-size: 20px;
 }
 .eachClass .subelement:hover {
   cursor: pointer;
