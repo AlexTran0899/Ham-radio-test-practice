@@ -3,7 +3,7 @@ exports.up = async (knex) => {
     .createTable('questions', (questions) => {
       questions.increments('question_id')
       questions.integer('class')
-      questions.integer('subelement')
+      questions.string('subelement')
       questions.integer('section')
       questions.integer('question_number')
       questions.string('question')

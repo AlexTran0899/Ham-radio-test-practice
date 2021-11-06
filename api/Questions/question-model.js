@@ -5,25 +5,31 @@ function getAll() {
     return db('questions')
 }
 
-function getBySubelement(subelement) {
-    return db('questions').where({subelement})
+async function getByClass(hamClass) {
+    const subelement = await db('subelement').where({class:hamClass})
+    const questions = await db('questions').where({ class: hamClass }).orderBy('question_id')
+    const formatedData = subelement.map(each => {
+        each.subelement = [questions.filter(Id => Id.subelement === each.subelement_Id)]
+        return each
+    })
+    return formatedData
 }
 async function Correct(question_id) {
-    const amount = await db('questions').where({question_id}).select('correct').first()
+    const amount = await db('questions').where({ question_id }).select('correct').first()
     amount.correct += 1
-    return db('questions').where({question_id}).update(amount)
+    return db('questions').where({ question_id }).update(amount)
 }
 
 async function Incorrect(question_id) {
-    const amount = await db('questions').where({question_id}).select('incorrect').first()
+    const amount = await db('questions').where({ question_id }).select('incorrect').first()
     amount.incorrect += 1
-    return db('questions').where({question_id}).update(amount)
+    return db('questions').where({ question_id }).update(amount)
 }
 
 
 module.exports = {
     getAll,
-    getBySubelement,
+    getByClass,
     Correct,
     Incorrect
 }

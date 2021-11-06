@@ -1,0 +1,18 @@
+.eachClass {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.eachClass .subelement {
+  margin: 10px;
+  width: 300px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: large;
+  font-size: 20px;
+}
+.eachClass .subelement:hover {
+  cursor: pointer;
+  box-shadow: 0px 20px 20px 10px rgba(36, 36, 36, 0.2);
+}

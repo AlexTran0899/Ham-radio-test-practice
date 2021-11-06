@@ -8,8 +8,19 @@ router.get('/', (req, res, next) => {
         .catch(next)
 })
 
-router.get('/:subelement', (req, res, next) => {
-    Questions.getBySubelement(req.params.subelement)
+router.get('/:class', (req, res, next) => {
+    let hamClass = req.params.class 
+    console.log(hamClass)
+    if(hamClass === 'Technician'){
+        hamClass = 0
+    }
+    if(hamClass === 'General'){
+        hamClass = 1
+    }
+    if(hamClass === 'AmateurExtra'){
+        hamClass = 2
+    }
+    Questions.getByClass(hamClass)
         .then(data => res.json(data))
         .catch(next)
 })

@@ -2,7 +2,7 @@ exports.seed = function (knex) {
     return knex('questions').insert([
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 1,
             question: 'Which of the following is a safety hazard of a 12-volt storage battery?',
@@ -16,7 +16,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 2,
             question: 'What health hazard is presented by electrical current flowing through the body?',
@@ -30,7 +30,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 3,
             question: 'In the United States, what is connected to the green wire in a threewire electrical AC plug?',
@@ -44,7 +44,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 4,
             question: 'What is the purpose of a fuse in an electrical circuit?',
@@ -58,7 +58,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 5,
             question: 'Why is it unwise to install a 20-ampere fuse in the place of a 5-ampere fuse?',
@@ -72,7 +72,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 6,
             question: 'What is a good way to guard against electrical shock at your station',
@@ -86,7 +86,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 7,
             question: 'Which of these precautions should be taken when installing devices for lightning protection in a coaxial cable feed line?',
@@ -100,7 +100,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 8,
             question: 'What safety equipment should always be included in home-built equipment that is powered from 120V AC power circuits?',
@@ -114,7 +114,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 9,
             question: 'What should be done to all external ground rods or earth connections',
@@ -128,7 +128,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 10,
             question: 'What can happen if a lead-acid storage battery is charged or discharged too quickly?',
@@ -142,7 +142,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 0,
             question_number: 11,
             question: 'What kind of hazard might exist in a power supply when it is turned off and disconnected?',
@@ -161,7 +161,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 1,
             question: 'When should members of a tower work team wear a hard hat and safety glasses?',
@@ -175,7 +175,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 2,
             question: 'What is a good precaution to observe before climbing an antenna tower?',
@@ -189,7 +189,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 3,
             question: 'Under what circumstances is it safe to climb a tower without a helper or observer?',
@@ -203,7 +203,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 4,
             question: 'Which of the following is an important safety precaution to observe when putting up an antenna tower?',
@@ -217,7 +217,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 5,
             question: 'What is the purpose of a gin pole?',
@@ -231,7 +231,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 6,
             question: 'What is the minimum safe distance from a power line to allow when installing an antenna?',
@@ -245,7 +245,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 7,
             question: 'Which of the following is an important safety rule to remember when using a crank-up tower?',
@@ -259,7 +259,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 8,
             question: 'What is considered to be a proper grounding method for a tower?',
@@ -273,7 +273,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 9,
             question: 'Why should you avoid attaching an antenna to a utility pole?',
@@ -287,7 +287,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 10,
             question: 'Which of the following is true when installing grounding conductors used for lightning protection?',
@@ -301,7 +301,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 11,
             question: 'Which of the following establishes grounding requirements for an amateur radio tower or antenna?',
@@ -315,7 +315,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 12,
             question: 'Which of the following is good practice when installing ground wires on a tower for lightning protection?',
@@ -329,7 +329,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 1,
             question_number: 13,
             question: 'What is the purpose of a safety wire through a turnbuckle used to tension guy lines?',
@@ -347,7 +347,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 1,
             question: 'What type of radiation are VHF and UHF radio signals?',
@@ -361,7 +361,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 2,
             question: 'Which of the following frequencies has the lowest value for Maximum Permissible Exposure limit?',
@@ -375,7 +375,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 3,
             question: 'What is the maximum power level that an amateur radio station may use at VHF frequencies before an RF exposure evaluation is required?',
@@ -389,7 +389,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 4,
             question: 'What factors affect the RF exposure of people near an amateur station antenna?',
@@ -403,7 +403,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 5,
             question: 'Why do exposure limits vary with frequency?',
@@ -417,7 +417,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 6,
             question: 'Which of the following is an acceptable method to determine that your station complies with FCC RF exposure regulations?',
@@ -431,7 +431,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 7,
             question: 'What could happen if a person accidentally touched your antenna while you were transmitting?',
@@ -445,7 +445,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 8,
             question: 'Which of the following actions might amateur operators take to prevent exposure to RF radiation in excess of FCC-supplied limits?',
@@ -459,7 +459,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 9,
             question: 'How can you make sure your station stays in compliance with RF safety regulations?',
@@ -473,7 +473,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 10,
             question: 'Why is duty cycle one of the factors used to determine safe RF radiation exposure levels?',
@@ -487,7 +487,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 11,
             question: 'What is the definition of duty cycle during the averaging time for RF exposure?',
@@ -501,7 +501,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 12,
             question: 'How does RF radiation differ from ionizing radiation (radioactivity)?',
@@ -515,7 +515,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 0,
+            subelement: 'T0',
             section: 2,
             question_number: 13,
             question: 'If the averaging time for exposure is 6 minutes, how much power density is permitted if the signal is present for 3 minutes and absent for 3 minutes rather than being present for the entire 6 minutes?',
@@ -533,7 +533,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 1,
             question: 'Which of the following is a purpose of the Amateur Radio Service as stated in the FCC rules and regulations?',
@@ -547,7 +547,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 2,
             question: 'Which agency regulates and enforces the rules for the Amateur Radio Service in the United States?',
@@ -562,7 +562,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 3,
             question: 'What are the FCC rules regarding the use of a phonetic alphabet for station identification in the Amateur Radio Service?',
@@ -576,7 +576,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 4,
             question: 'How many operator/primary station license grants may be held by any one person?',
@@ -590,7 +590,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 5,
             question: 'What is proof of possession of an FCC-issued operator/primary license grant?',
@@ -604,7 +604,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 6,
             question: 'What is the FCC Part 97 definition of a beacon?',
@@ -618,7 +618,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 7,
             question: 'What is the FCC Part 97 definition of a space station?',
@@ -632,7 +632,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 8,
             question: 'Which of the following entities recommends transmit/receive channels and other parameters for auxiliary and repeater stations?',
@@ -646,7 +646,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 9,
             question: 'Who selects a Frequency Coordinator?',
@@ -660,7 +660,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 10,
             question: 'Which of the following describes the Radio Amateur Civil Emergency Service (RACES)?',
@@ -674,7 +674,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 0,
             question_number: 11,
             question: 'When is willful interference to other amateur radio stations permitted?',
@@ -692,7 +692,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 1,
             question: 'What is the International Telecommunications Union (ITU)?',
@@ -706,7 +706,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 2,
             question: 'Which amateur radio stations may make contact with an amateur radio station on the International Space Station (ISS) using 2 meter and 70 cm band frequencies?',
@@ -720,7 +720,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 3,
             question: 'Which frequency is within the 6 meter amateur band?',
@@ -734,7 +734,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 4,
             question: 'Which amateur band are you using when your station is transmitting on 146.52 MHz?',
@@ -748,7 +748,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 5,
             question: 'What is the limitation for emissions on the frequencies between 219 and 220 MHz?',
@@ -762,7 +762,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 6,
             question: 'On which HF bands does a Technician class operator have phone privileges?',
@@ -776,7 +776,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 7,
             question: 'Which of the following VHF/UHF frequency ranges are limited to CW only?',
@@ -790,7 +790,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 8,
             question: 'Which of the following is a result of the fact that the Amateur Radio Service is secondary in all or portions of some amateur bands (such as portions of the 70 cm band)?',
@@ -804,7 +804,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 9,
             question: 'Why should you not set your transmit frequency to be exactly at the edge of an amateur band or sub-band?',
@@ -818,7 +818,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 10,
             question: 'Which of the following HF bands have frequencies available to the Technician class operator for RTTY and data transmissions?',
@@ -832,7 +832,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 11,
             question: 'What is the maximum peak envelope power output for Technician class operators using their assigned portions of the HF bands?',
@@ -846,7 +846,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 1,
             question_number: 12,
             question: 'Except for some specific restrictions, what is the maximum peak envelope power output for Technician class operators using frequencies above 30 MHz?',
@@ -864,7 +864,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 1,
             question: 'For which license classes are new licenses currently available from the FCC?',
@@ -878,7 +878,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 2,
             question: 'Who may select a desired call sign under the vanity call sign rules?',
@@ -892,7 +892,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 3,
             question: 'What types of international communications is an FCC-licensed amateur radio station permitted to make?',
@@ -906,7 +906,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 4,
             question: 'When are you allowed to operate your amateur station in a foreign country?',
@@ -920,7 +920,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 5,
             question: 'Which of the following is a valid call sign for a Technician class amateur radio station?',
@@ -934,7 +934,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 6,
             question: 'From which of the following locations may an FCC-licensed amateur station transmit?',
@@ -948,7 +948,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 7,
             question: 'What may result when correspondence from the FCC is returned as undeliverable because the grantee failed to provide and maintain a correct mailing address with the FCC?',
@@ -962,7 +962,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 8,
             question: 'What is the normal term for an FCC-issued primary station/operator amateur radio license grant?',
@@ -976,7 +976,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 9,
             question: 'What is the grace period following the expiration of an amateur license within which the license may be renewed?',
@@ -990,7 +990,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 10,
             question: 'How soon after passing the examination for your first amateur radio license may you operate a transmitter on an Amateur Radio Service frequency?',
@@ -1004,7 +1004,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 2,
             question_number: 11,
             question: 'If your license has expired and is still within the allowable grace period, may you continue to operate a transmitter on Amateur Radio Service frequencies?',
@@ -1019,7 +1019,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section D
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 1,
             question: 'With which countries are FCC-licensed amateur radio stations prohibited from exchanging communications?',
@@ -1033,7 +1033,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 2,
             question: 'Under which of the following circumstances may an amateur radio station make one-way transmissions?',
@@ -1047,7 +1047,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 3,
             question: 'When is it permissible to transmit messages encoded to hide their meaning?',
@@ -1061,7 +1061,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 4,
             question: 'Under what conditions is an amateur station authorized to transmit music using a phone emission?',
@@ -1075,7 +1075,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 5,
             question: 'When may amateur radio operators use their stations to notify other amateurs of the availability of equipment for sale or trade?',
@@ -1089,7 +1089,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 6,
             question: 'What, if any, are the restrictions concerning transmission of language that may be considered indecent or obscene?',
@@ -1103,7 +1103,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 7,
             question: 'What types of amateur stations can automatically retransmit the signals of other amateur stations?',
@@ -1117,7 +1117,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 8,
             question: 'In which of the following circumstances may the control operator of an amateur station receive compensation for operating that station?',
@@ -1131,7 +1131,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 9,
             question: 'Under which of the following circumstances are amateur stations authorized to transmit signals related to broadcasting, program production, or news gathering, assuming no other means is available?',
@@ -1145,7 +1145,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 10,
             question: 'What is the meaning of the term broadcasting in the FCC rules for the Amateur Radio Service?',
@@ -1159,7 +1159,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 3,
             question_number: 11,
             question: 'When may an amateur station transmit without on-the-air identification?',
@@ -1174,7 +1174,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section E
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 1,
             question: 'When is an amateur station permitted to transmit without a control operator?',
@@ -1188,7 +1188,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 2,
             question: 'Who may be the control operator of a station communicating through an amateur satellite or space station?',
@@ -1202,7 +1202,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 3,
             question: 'Who must designate the station control operator?',
@@ -1216,7 +1216,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 4,
             question: 'What determines the transmitting privileges of an amateur station?',
@@ -1230,7 +1230,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 5,
             question: 'What is an amateur station control point?',
@@ -1244,7 +1244,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 6,
             question: 'When, under normal circumstances, may a Technician class licensee be the control operator of a station operating in an exclusive Amateur Extra class operator segment of the amateur bands?',
@@ -1258,7 +1258,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 7,
             question: 'When the control operator is not the station licensee, who is responsible for the proper operation of the station?',
@@ -1272,7 +1272,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 8,
             question: 'Which of the following is an example of automatic control?',
@@ -1286,7 +1286,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 9,
             question: 'Which of the following is true of remote control operation?',
@@ -1300,7 +1300,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 10,
             question: 'Which of the following is an example of remote control as defined in Part 97?',
@@ -1314,7 +1314,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 4,
             question_number: 11,
             question: 'Who does the FCC presume to be the control operator of an amateur station, unless documentation to the contrary is in the station records?',
@@ -1329,7 +1329,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section F
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 1,
             question: 'When must the station licensee make the station and its records available for FCC inspection?',
@@ -1343,7 +1343,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 2,
             question: 'When using tactical identifiers such as "Race Headquarters" during a community service net operation, how often must your station transmit the station"s FCC-assigned call sign?',
@@ -1357,7 +1357,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 3,
             question: 'When is an amateur station required to transmit its assigned call sign?',
@@ -1371,7 +1371,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 4,
             question: 'Which of the following is an acceptable language to use for station identification when operating in a phone sub-band?',
@@ -1385,7 +1385,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 5,
             question: 'What method of call sign identification is required for a station transmitting phone signals?',
@@ -1399,7 +1399,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 6,
             question: 'Which of the following formats of a self-assigned indicator is acceptable when identifying using a phone transmission?',
@@ -1413,7 +1413,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 7,
             question: 'Which of the following restrictions apply when a non-licensed person is allowed to speak to a foreign station using a station under the control of a Technician class control operator?',
@@ -1427,7 +1427,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 8,
             question: 'What is meant by the term Third Party Communications?',
@@ -1441,7 +1441,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 9,
             question: 'What type of amateur station simultaneously retransmits the signal of another amateur station on a different channel or channels?',
@@ -1455,7 +1455,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 10,
             question: 'Who is accountable should a repeater inadvertently retransmit communications that violate the FCC rules?',
@@ -1469,7 +1469,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 1,
+            subelement: 'T1',
             section: 5,
             question_number: 11,
             question: 'Which of the following is a requirement for the issuance of a club station license grant?',
@@ -1485,7 +1485,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 1,
             question: 'Which of the following is a common repeater frequency offset in the 2 meter band?',
@@ -1499,7 +1499,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 2,
             question: 'What is the national calling frequency for FM simplex operations in the 2 meter band?',
@@ -1513,7 +1513,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 3,
             question: 'What is a common repeater frequency offset in the 70 cm band?',
@@ -1527,7 +1527,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 4,
             question: "What is an appropriate way to call another station on a repeater if you know the other station's call sign?",
@@ -1541,7 +1541,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 5,
             question: 'How should you respond to a station calling CQ?',
@@ -1555,7 +1555,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 6,
             question: 'Which of the following is required when making on-the-air test transmissions?',
@@ -1569,7 +1569,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 7,
             question: 'What is meant by "repeater offset"?',
@@ -1583,7 +1583,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 8,
             question: 'What is the meaning of the procedural signal "CQ"?',
@@ -1597,7 +1597,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 9,
             question: 'What brief statement indicates that you are listening on a repeater and looking for a contact?',
@@ -1611,7 +1611,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 10,
             question: 'What is a band plan, beyond the privileges established by the FCC?',
@@ -1625,7 +1625,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 11,
             question: 'What term describes an amateur station that is transmitting and receiving on the same frequency?',
@@ -1639,7 +1639,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 0,
             question_number: 12,
             question: 'Which of the following is a guideline when choosing an operating frequency for calling CQ',
@@ -1657,7 +1657,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 1,
             question: 'What is the most common use of the "reverse split" function of a VHF/UHF transceiver?',
@@ -1671,7 +1671,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 2,
             question: 'What term describes the use of a sub-audible tone transmitted along with normal voice audio to open the squelch of a receiver?',
@@ -1685,7 +1685,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 3,
             question: 'If a station is not strong enough to keep a repeater\'s receiver squelch open, which of the following might allow you to receive the station\'s signal?',
@@ -1699,7 +1699,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 4,
             question: 'Which of the following could be the reason you are unable to access a repeater whose output you can hear?',
@@ -1713,7 +1713,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 5,
             question: 'What might be the problem if a repeater user says your transmissions are breaking up on voice peaks?',
@@ -1727,7 +1727,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 6,
             question: 'What type of tones are used to control repeaters linked by the Internet Relay Linking Project (IRLP) protocol?',
@@ -1741,7 +1741,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 7,
             question: 'How can you join a digital repeater\'s "talk group"?',
@@ -1755,7 +1755,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 8,
             question: 'Which of the following applies when two stations transmitting on the same frequency interfere with each other?',
@@ -1769,7 +1769,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 9,
             question: 'What is a "talk group" on a DMR digital repeater?',
@@ -1783,7 +1783,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 10,
             question: 'Which Q signal indicates that you are receiving interference from other stations?',
@@ -1797,7 +1797,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 11,
             question: 'Which Q signal indicates that you are changing frequency?',
@@ -1811,7 +1811,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 12,
             question: 'Why are simplex channels designated in the VHF/UHF band plans?',
@@ -1825,7 +1825,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 13,
             question: 'Where may SSB phone be used in amateur bands above 50 MHz?',
@@ -1839,7 +1839,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 1,
             question_number: 14,
             question: 'Which of the following describes a linked repeater network?',
@@ -1857,7 +1857,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 1,
             question: 'When do the FCC rules NOT apply to the operation of an amateur station?',
@@ -1871,7 +1871,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 2,
             question: 'What is meant by the term "NCS" used in net operation?',
@@ -1885,7 +1885,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 3,
             question: 'What should be done when using voice modes to ensure that voice messages containing unusual words are received correctly?',
@@ -1899,7 +1899,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 4,
             question: 'What do RACES and ARES have in common?',
@@ -1913,7 +1913,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 5,
             question: 'What does the term "traffic" refer to in net operation?',
@@ -1927,7 +1927,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 6,
             question: 'Which of the following is an accepted practice to get the immediate attention of a net control station when reporting an emergency?',
@@ -1941,7 +1941,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 7,
             question: 'Which of the following is an accepted practice for an amateur operator who has checked into a net?',
@@ -1955,7 +1955,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 8,
             question: 'Which of the following is a characteristic of good traffic handling?',
@@ -1969,7 +1969,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 9,
             question: 'Are amateur station control operators ever permitted to operate outside the frequency privileges of their license class?',
@@ -1983,7 +1983,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 10,
             question: 'What information is contained in the preamble of a formal traffic message?',
@@ -1997,7 +1997,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 11,
             question: 'What is meant by the term "check," in reference to a formal traffic message?',
@@ -2011,7 +2011,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 2,
+            subelement: 'T2',
             section: 2,
             question_number: 12,
             question: 'What is the Amateur Radio Emergency Service (ARES)?',
@@ -2028,7 +2028,7 @@ exports.seed = function (knex) {
 
          {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 1,
             question: 'What should you do if another operator reports that your station\'s 2 meter signals were strong just a moment ago, but now they are weak or distorted?',
@@ -2042,7 +2042,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 2,
             question: 'Why might the range of VHF and UHF signals be greater in the winter?',
@@ -2056,7 +2056,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 3,
             question: 'What antenna polarization is normally used for long-distance weaksignal CW and SSB contacts using the VHF and UHF bands?',
@@ -2070,7 +2070,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 4,
             question: 'What can happen if the antennas at opposite ends of a VHF or UHF line of sight radio link are not using the same polarization?',
@@ -2084,7 +2084,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 5,
             question: 'When using a directional antenna, how might your station be able to access a distant repeater if buildings or obstructions are blocking the direct line of sight path?',
@@ -2098,7 +2098,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 6,
             question: 'What term is commonly used to describe the rapid fluttering sound sometimes heard from mobile stations that are moving while transmitting?',
@@ -2112,7 +2112,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 7,
             question: 'What type of wave carries radio signals between transmitting and receiving stations?',
@@ -2126,7 +2126,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 8,
             question: 'Which of the following is a likely cause of irregular fading of signals received by ionospheric reflection?',
@@ -2140,7 +2140,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 9,
             question: 'Which of the following results from the fact that skip signals refracted from the ionosphere are elliptically polarized?',
@@ -2154,7 +2154,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 10,
             question: 'What may occur if data signals arrive via multiple paths?',
@@ -2168,7 +2168,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 11,
             question: 'Which part of the atmosphere enables the propagation of radio signals around the world?',
@@ -2182,7 +2182,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 12,
             question: 'How might fog and light rain affect radio range on the 10 meter and 6 meter bands?',
@@ -2196,7 +2196,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 0,
             question_number: 13,
             question: 'What weather condition would decrease range at microwave frequencies?',
@@ -2211,7 +2211,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section B
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 1,
             question: 'What is the name for the distance a radio wave travels during one complete cycle?',
@@ -2225,7 +2225,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 2,
             question: 'What property of a radio wave is used to describe its polarization?',
@@ -2239,7 +2239,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 3,
             question: 'What are the two components of a radio wave?',
@@ -2253,7 +2253,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 4,
             question: 'How fast does a radio wave travel through free space?',
@@ -2267,7 +2267,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 5,
             question: 'How does the wavelength of a radio wave relate to its frequency?',
@@ -2281,7 +2281,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 6,
             question: 'What is the formula for converting frequency to approximate wavelength in meters?',
@@ -2295,7 +2295,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 7,
             question: 'What property of radio waves is often used to identify the different frequency bands?',
@@ -2309,7 +2309,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 8,
             question: 'What are the frequency limits of the VHF spectrum?',
@@ -2323,7 +2323,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 9,
             question: 'What are the frequency limits of the UHF spectrum?',
@@ -2337,7 +2337,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 10,
             question: 'What frequency range is referred to as HF?',
@@ -2351,7 +2351,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 1,
             question_number: 11,
             question: 'What is the approximate velocity of a radio wave as it travels through free space?',
@@ -2369,7 +2369,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 1,
             question: 'Why are direct (not via a repeater) UHF signals rarely heard from stations outside your local coverage area?',
@@ -2383,7 +2383,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 2,
             question: 'Which of the following is an advantage of HF vs VHF and higher frequencies?',
@@ -2397,7 +2397,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 3,
             question: 'What is a characteristic of VHF signals received via auroral reflection?',
@@ -2411,7 +2411,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 4,
             question: 'Which of the following propagation types is most commonly associated with occasional strong over-the-horizon signals on the 10, 6, and 2 meter bands?',
@@ -2425,7 +2425,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 5,
             question: 'Which of the following effects might cause radio signals to be heard despite obstructions between the transmitting and receiving stations?',
@@ -2439,7 +2439,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 6,
             question: 'What mode is responsible for allowing over-the-horizon VHF and UHF communications to ranges of approximately 300 miles on a regular basis?',
@@ -2453,7 +2453,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 7,
             question: 'What band is best suited for communicating via meteor scatter?',
@@ -2467,7 +2467,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 8,
             question: 'What causes tropospheric ducting?',
@@ -2481,7 +2481,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 9,
             question: 'What is generally the best time for long-distance 10 meter band propagation via the F layer?',
@@ -2495,7 +2495,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 10,
             question: 'Which of the following bands may provide long distance communications during the peak of the sunspot cycle?',
@@ -2509,7 +2509,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 3,
+            subelement: 'T3',
             section: 2,
             question_number: 11,
             question: 'Why do VHF and UHF radio signals usually travel somewhat farther than the visual line of sight distance between two stations?',
@@ -2526,7 +2526,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 1,
             question: 'What must be considered to determine the minimum current capacity needed for a transceiver power supply?',
@@ -2540,7 +2540,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 2,
             question: 'How might a computer be used as part of an amateur radio station?',
@@ -2554,7 +2554,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 3,
             question: 'Why should wiring between the power source and radio be heavy-gauge wire and kept as short as possible?',
@@ -2568,7 +2568,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 4,
             question: 'Which computer sound card port is connected to a transceiver\'s headphone or speaker output for operating digital modes?',
@@ -2582,7 +2582,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 5,
             question: 'What is the proper location for an external SWR meter?',
@@ -2596,7 +2596,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 6,
             question: 'Which of the following connections might be used between a voice transceiver and a computer for digital operation?',
@@ -2610,7 +2610,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 7,
             question: 'How is a computer\'s sound card used when conducting digital communications?',
@@ -2624,7 +2624,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 8,
             question: 'Which of the following conductors provides the lowest impedance to RF signals?',
@@ -2638,7 +2638,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 9,
             question: 'Which of the following could you use to cure distorted audio caused by RF current on the shield of a microphone cable?',
@@ -2652,7 +2652,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 10,
             question: 'What is the source of a high-pitched whine that varies with engine speed in a mobile transceiver\'s receive audio?',
@@ -2666,7 +2666,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 0,
             question_number: 11,
             question: 'Where should the negative return connection of a mobile transceiver\'s power cable be connected',
@@ -2681,7 +2681,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section B
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 1,
             question: 'What may happen if a transmitter is operated with the microphone gain set too high?',
@@ -2695,7 +2695,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 2,
             question: 'Which of the following can be used to enter the operating frequency on a modern transceiver?',
@@ -2709,7 +2709,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 3,
             question: 'What is the purpose of the squelch control on a transceiver?',
@@ -2723,7 +2723,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 4,
             question: 'What is a way to enable quick access to a favorite frequency on your transceiver?',
@@ -2737,7 +2737,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 5,
             question: 'Which of the following would reduce ignition interference to a receiver?',
@@ -2751,7 +2751,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 6,
             question: 'Which of the following controls could be used if the voice pitch of a single-sideband signal seems too high or low?',
@@ -2765,7 +2765,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 7,
             question: 'What does the term "RIT" mean?',
@@ -2779,7 +2779,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 8,
             question: 'What is the advantage of having multiple receive bandwidth choices on a multimode transceiver?',
@@ -2793,7 +2793,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 9,
             question: 'Which of the following is an appropriate receive filter bandwidth for minimizing noise and interference for SSB reception?',
@@ -2807,7 +2807,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 10,
             question: 'Which of the following is an appropriate receive filter bandwidth for minimizing noise and interference for CW reception?',
@@ -2821,7 +2821,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 11,
             question: 'What is the function of automatic gain control, or AGC?',
@@ -2835,7 +2835,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 12,
             question: 'Which of the following could be used to remove power line noise or ignition noise?',
@@ -2849,7 +2849,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 4,
+            subelement: 'T4',
             section: 1,
             question_number: 13,
             question: 'Which of the following is a use for the scanning function of an FM transceiver?',
@@ -2866,7 +2866,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 1,
             question: 'Electrical current is measured in which of the following units?',
@@ -2880,7 +2880,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 2,
             question: 'Electrical power is measured in which of the following units?',
@@ -2894,7 +2894,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 3,
             question: 'What is the name for the flow of electrons in an electric circuit?',
@@ -2908,7 +2908,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 4,
             question: 'What is the name for a current that flows only in one direction?',
@@ -2922,7 +2922,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 5,
             question: 'What is the electrical term for the electromotive force (EMF) that causes electron flow?',
@@ -2936,7 +2936,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 6,
             question: 'How much voltage does a mobile transceiver typically require?',
@@ -2950,7 +2950,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 7,
             question: 'Which of the following is a good electrical conductor?',
@@ -2964,7 +2964,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 8,
             question: 'Which of the following is a good electrical insulator?',
@@ -2978,7 +2978,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 9,
             question: 'What is the name for a current that reverses direction on a regular basis?',
@@ -2992,7 +2992,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 10,
             question: 'Which term describes the rate at which electrical energy is used?',
@@ -3006,7 +3006,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 11,
             question: 'What is the unit of electromotive force?',
@@ -3020,7 +3020,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 12,
             question: 'What describes the number of times per second that an alternating current makes a complete cycle?',
@@ -3034,7 +3034,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 13,
             question: 'In which type of circuit is current the same through all components?',
@@ -3048,7 +3048,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 0,
             question_number: 14,
             question: 'In which type of circuit is voltage the same across all components?',
@@ -3066,7 +3066,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 1,
             question: 'How many milliamperes is 1.5 amperes?',
@@ -3080,7 +3080,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 2,
             question: 'What is another way to specify a radio signal frequency of 1,500,000 hertz?',
@@ -3094,7 +3094,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 3,
             question: 'How many volts are equal to one kilovolt?',
@@ -3108,7 +3108,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 4,
             question: 'How many volts are equal to one microvolt?',
@@ -3122,7 +3122,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 5,
             question: 'Which of the following is equal to 500 milliwatts?',
@@ -3136,7 +3136,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 6,
             question: 'If an ammeter calibrated in amperes is used to measure a 3000- milliampere current, what reading would it show?',
@@ -3150,7 +3150,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 7,
             question: 'If a frequency display calibrated in megahertz shows a reading of 3.525 MHz, what would it show if it were calibrated in kilohertz?',
@@ -3164,7 +3164,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 8,
             question: 'How many microfarads are equal to 1,000,000 picofarads?',
@@ -3178,7 +3178,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 9,
             question: 'What is the approximate amount of change, measured in decibels (dB), of a power increase from 5 watts to 10 watts?',
@@ -3192,7 +3192,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 10,
             question: 'What is the approximate amount of change, measured in decibels (dB), of a power decrease from 12 watts to 3 watts?',
@@ -3206,7 +3206,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 11,
             question: 'What is the amount of change, measured in decibels (dB), of a power increase from 20 watts to 200 watts?',
@@ -3220,7 +3220,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 12,
             question: 'Which of the following frequencies is equal to 28,400 kHz?',
@@ -3234,7 +3234,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 1,
             question_number: 13,
             question: 'If a frequency display shows a reading of 2425 MHz, what frequency is that in GHz?',
@@ -3252,7 +3252,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 1,
             question: 'What is the ability to store energy in an electric field called?',
@@ -3266,7 +3266,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 2,
             question: 'What is the basic unit of capacitance?',
@@ -3280,7 +3280,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 3,
             question: 'What is the ability to store energy in a magnetic field called?',
@@ -3294,7 +3294,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 4,
             question: 'What is the basic unit of inductance?',
@@ -3308,7 +3308,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 5,
             question: 'What is the unit of frequency?',
@@ -3322,7 +3322,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 6,
             question: 'What does the abbreviation "RF" refer to?',
@@ -3336,7 +3336,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 7,
             question: 'A radio wave is made up of what type of energy?',
@@ -3350,7 +3350,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 8,
             question: 'What is the formula used to calculate electrical power in a DC circuit?',
@@ -3364,7 +3364,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 9,
             question: 'How much power is being used in a circuit when the applied voltage is 13.8 volts DC and the current is 10 amperes?',
@@ -3378,7 +3378,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 10,
             question: 'How much power is being used in a circuit when the applied voltage is 12 volts DC and the current is 2.5 amperes?',
@@ -3392,7 +3392,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 11,
             question: 'How many amperes are flowing in a circuit when the applied voltage is 12 volts DC and the load is 120 watts?',
@@ -3406,7 +3406,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 12,
             question: 'What is impedance?',
@@ -3420,7 +3420,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 13,
             question: 'What is a unit of impedance?',
@@ -3434,7 +3434,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 2,
             question_number: 14,
             question: 'What is the proper abbreviation for megahertz?',
@@ -3449,7 +3449,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section D
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 1,
             question: 'What formula is used to calculate current in a circuit?',
@@ -3463,7 +3463,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 2,
             question: 'What formula is used to calculate voltage in a circuit?',
@@ -3477,7 +3477,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 3,
             question: 'What formula is used to calculate resistance in a circuit?',
@@ -3491,7 +3491,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 4,
             question: 'What is the resistance of a circuit in which a current of 3 amperes flows through a resistor connected to 90 volts?',
@@ -3505,7 +3505,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 5,
             question: 'What is the resistance in a circuit for which the applied voltage is 12 volts and the current flow is 1.5 amperes?',
@@ -3519,7 +3519,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 6,
             question: 'What is the resistance of a circuit that draws 4 amperes from a 12-volt source?',
@@ -3533,7 +3533,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 7,
             question: 'What is the current in a circuit with an applied voltage of 120 volts and a resistance of 80 ohms?',
@@ -3547,7 +3547,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 8,
             question: 'What is the current through a 100-ohm resistor connected across 200 volts?',
@@ -3561,7 +3561,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 9,
             question: 'What is the current through a 24-ohm resistor connected across 240 volts?',
@@ -3575,7 +3575,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 10,
             question: 'What is the voltage across a 2-ohm resistor if a current of 0.5 amperes flows through it?',
@@ -3589,7 +3589,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 11,
             question: 'What is the voltage across a 10-ohm resistor if a current of 1 ampere flows through it?',
@@ -3603,7 +3603,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 12,
             question: 'What is the voltage across a 10-ohm resistor if a current of 2 amperes flows through it?',
@@ -3617,7 +3617,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 13,
             question: 'What happens to current at the junction of two components in series',
@@ -3631,7 +3631,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 14,
             question: 'What happens to current at the junction of two components in parallel?',
@@ -3645,7 +3645,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 15,
             question: 'What is the voltage across each of two components in series with a voltage source?',
@@ -3659,7 +3659,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 5,
+            subelement: 'T5',
             section: 3,
             question_number: 16,
             question: 'What is the voltage across each of two components in parallel with a voltage source?',
@@ -3675,7 +3675,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 1,
             question: 'What electrical component opposes the flow of current in a DC circuit?',
@@ -3689,7 +3689,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 2,
             question: 'What type of component is often used as an adjustable volume control?',
@@ -3703,7 +3703,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 3,
             question: 'What electrical parameter is controlled by a potentiometer?',
@@ -3717,7 +3717,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 4,
             question: 'What electrical component stores energy in an electric field?',
@@ -3731,7 +3731,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 5,
             question: 'What type of electrical component consists of two or more conductive surfaces separated by an insulator?',
@@ -3745,7 +3745,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 6,
             question: 'What type of electrical component stores energy in a magnetic field?',
@@ -3759,7 +3759,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 7,
             question: 'What electrical component usually is constructed as a coil of wire?',
@@ -3773,7 +3773,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 8,
             question: 'What electrical component is used to connect or disconnect electrical circuits?',
@@ -3787,7 +3787,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 9,
             question: 'What electrical component is used to protect other circuit components from current overloads?',
@@ -3801,7 +3801,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 10,
             question: 'Which of the following battery types is rechargeable?',
@@ -3815,7 +3815,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 0,
             question_number: 11,
             question: 'Which of the following battery types is not rechargeable?',
@@ -3833,7 +3833,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 1,
             question: 'What class of electronic components uses a voltage or current signal to control current flow?',
@@ -3847,7 +3847,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 2,
             question: 'What electronic component allows current to flow in only one direction?',
@@ -3861,7 +3861,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 3,
             question: 'Which of these components can be used as an electronic switch or amplifier?',
@@ -3875,7 +3875,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 4,
             question: 'Which of the following components can consist of three layers of semiconductor material?',
@@ -3889,7 +3889,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 5,
             question: 'Which of the following electronic components can amplify signals?',
@@ -3903,7 +3903,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 6,
             question: 'How is the cathode lead of a semiconductor diode often marked on the package?',
@@ -3917,7 +3917,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 7,
             question: 'What does the abbreviation LED stand for?',
@@ -3931,7 +3931,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 8,
             question: 'What does the abbreviation FET stand for?',
@@ -3945,7 +3945,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 9,
             question: 'What are the names of the two electrodes of a diode?',
@@ -3959,7 +3959,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 10,
             question: 'Which of the following could be the primary gain-producing component in an RF power amplifier?',
@@ -3973,7 +3973,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 1,
             question_number: 11,
             question: 'What is the term that describes a device\'s ability to amplify a signal?',
@@ -3991,7 +3991,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 1,
             question: 'What is the name of an electrical wiring diagram that uses standard component symbols?',
@@ -4005,7 +4005,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 2,
             question: 'What is component 1 in figure T1?',
@@ -4020,7 +4020,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 3,
             question: 'What is component 2 in figure T1?',
@@ -4035,7 +4035,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 4,
             question: 'What is component 3 in figure T1?',
@@ -4050,7 +4050,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 5,
             question: 'What is component 4 in figure T1?',
@@ -4065,7 +4065,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 6,
             question: 'What is component 6 in figure T2?',
@@ -4080,7 +4080,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 7,
             question: 'What is component 8 in figure T2?',
@@ -4095,7 +4095,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 8,
             question: 'What is component 9 in figure T2?',
@@ -4110,7 +4110,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 9,
             question: 'What is component 4 in figure T2?',
@@ -4125,7 +4125,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 10,
             question: 'hat is component 3 in figure T3?',
@@ -4140,7 +4140,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 11,
             question: 'What is component 4 in figure T3?',
@@ -4155,7 +4155,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 12,
             question: 'What do the symbols on an electrical schematic represent?',
@@ -4169,7 +4169,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 2,
             question_number: 13,
             question: 'Which of the following is accurately represented in electrical schematics?',
@@ -4184,7 +4184,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section D
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 1,
             question: 'Which of the following devices or circuits changes an alternating current into a varying direct current signal?',
@@ -4198,7 +4198,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 2,
             question: 'What is a relay?',
@@ -4212,7 +4212,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 3,
             question: 'What type of switch is represented by component 3 in figure T2?',
@@ -4227,7 +4227,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 4,
             question: 'Which of the following displays an electrical quantity as a numeric value?',
@@ -4241,7 +4241,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 5,
             question: 'What type of circuit controls the amount of voltage from a power supply?',
@@ -4255,7 +4255,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 6,
             question: 'What component is commonly used to change 120V AC house current to a lower AC voltage for other uses?',
@@ -4269,7 +4269,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 7,
             question: 'Which of the following is commonly used as a visual indicator?',
@@ -4283,7 +4283,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 8,
             question: 'Which of the following is combined with an inductor to make a tuned circuit?',
@@ -4297,7 +4297,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 9,
             question: 'What is the name of a device that combines several semiconductors and other components into one package?',
@@ -4311,7 +4311,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 10,
             question: 'What is the function of component 2 in Figure T1?',
@@ -4326,7 +4326,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 11,
             question: 'Which of the following is a resonant or tuned circuit?',
@@ -4340,7 +4340,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 6,
+            subelement: 'T6',
             section: 3,
             question_number: 12,
             question: 'Which of the following is a common reason to use shielded wire?',
@@ -4356,7 +4356,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 1,
             question: 'Which term describes the ability of a receiver to detect the presence of a signal?',
@@ -4370,7 +4370,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 2,
             question: 'What is a transceiver?',
@@ -4384,7 +4384,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 3,
             question: 'Which of the following is used to convert a radio signal from one frequency to another?',
@@ -4398,7 +4398,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 4,
             question: 'Which term describes the ability of a receiver to discriminate between multiple signals?',
@@ -4412,7 +4412,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 5,
             question: 'What is the name of a circuit that generates a signal at a specific frequency?',
@@ -4426,7 +4426,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 6,
             question: 'What device converts the RF input and output of a transceiver to another band?',
@@ -4440,7 +4440,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 7,
             question: 'What is meant by "PTT"?',
@@ -4454,7 +4454,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 8,
             question: 'Which of the following describes combining speech with an RF carrier signal?',
@@ -4468,7 +4468,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 9,
             question: 'What is the function of the SSB/CW-FM switch on a VHF power amplifier?',
@@ -4482,7 +4482,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 10,
             question: 'What device increases the low-power output from a handheld transceiver?',
@@ -4496,7 +4496,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 0,
             question_number: 11,
             question: 'Where is an RF preamplifier installed?',
@@ -4514,7 +4514,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 1,
             question: 'What can you do if you are told your FM handheld or mobile transceiver is over-deviating?',
@@ -4528,7 +4528,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 2,
             question: 'What would cause a broadcast AM or FM radio to receive an amateur radio transmission unintentionally?',
@@ -4542,7 +4542,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 3,
             question: 'Which of the following can cause radio frequency interference?',
@@ -4556,7 +4556,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 4,
             question: 'Which of the following is a way to reduce or eliminate interference from an amateur transmitter to a nearby telephone?',
@@ -4570,7 +4570,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 5,
             question: 'How can overload of a non-amateur radio or TV receiver by an amateur signal be reduced or eliminated?',
@@ -4584,7 +4584,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 6,
             question: 'Which of the following actions should you take if a neighbor tells you that your station\'s transmissions are interfering with their radio or TV reception?',
@@ -4598,7 +4598,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 7,
             question: 'Which of the following can reduce overload to a VHF transceiver from a nearby FM broadcast station?',
@@ -4612,7 +4612,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 8,
             question: 'What should you do if something in a neighbor\'s home is causing harmful interference to your amateur station?',
@@ -4626,7 +4626,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 9,
             question: 'What is a Part 15 device?',
@@ -4640,7 +4640,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 10,
             question: 'What might be a problem if you receive a report that your audio signal through the repeater is distorted or unintelligible?',
@@ -4654,7 +4654,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 11,
             question: 'What is a symptom of RF feedback in a transmitter or transceiver?',
@@ -4668,7 +4668,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 1,
             question_number: 12,
             question: 'What should be the first step to resolve cable TV interference from your ham radio transmission?',
@@ -4686,7 +4686,7 @@ exports.seed = function (knex) {
 
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 1,
             question: 'What is the primary purpose of a dummy load?',
@@ -4700,7 +4700,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 2,
             question: 'Which of the following instruments can be used to determine if an antenna is resonant at the desired operating frequency?',
@@ -4714,7 +4714,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 3,
             question: 'What, in general terms, is standing wave ratio (SWR)?',
@@ -4728,7 +4728,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 4,
             question: 'What reading on an SWR meter indicates a perfect impedance match between the antenna and the feed line?',
@@ -4742,7 +4742,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 5,
             question: 'Why do most solid-state amateur radio transmitters reduce output power as SWR increases?',
@@ -4756,7 +4756,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 6,
             question: 'What does an SWR reading of 4:1 indicate?',
@@ -4770,7 +4770,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 7,
             question: 'What happens to power lost in a feed line?',
@@ -4784,7 +4784,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 8,
             question: 'What instrument other than an SWR meter could you use to determine if a feed line and antenna are properly matched?',
@@ -4798,7 +4798,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 9,
             question: 'Which of the following is the most common cause for failure of coaxial cables?',
@@ -4812,7 +4812,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 10,
             question: 'Why should the outer jacket of coaxial cable be resistant to ultraviolet light?',
@@ -4826,7 +4826,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 11,
             question: 'What is a disadvantage of air core coaxial cable when compared to foam or solid dielectric types?',
@@ -4840,7 +4840,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 2,
             question_number: 12,
             question: 'What does a dummy load consist of?',
@@ -4855,7 +4855,7 @@ exports.seed = function (knex) {
         /////////////////////////////////////////////////////// section D
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 1,
             question: 'Which instrument would you use to measure electric potential or electromotive force?',
@@ -4869,7 +4869,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 2,
             question: 'What is the correct way to connect a voltmeter to a circuit?',
@@ -4883,7 +4883,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 3,
             question: 'How is a simple ammeter connected to a circuit?',
@@ -4897,7 +4897,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 4,
             question: 'Which instrument is used to measure electric current?',
@@ -4911,7 +4911,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 5,
             question: 'What instrument is used to measure resistance?',
@@ -4925,7 +4925,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 6,
             question: 'Which of the following might damage a multimeter?',
@@ -4939,7 +4939,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 7,
             question: 'Which of the following measurements are commonly made using a multimeter?',
@@ -4953,7 +4953,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 8,
             question: 'Which of the following types of solder is best for radio and electronic use?',
@@ -4967,7 +4967,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 9,
             question: 'What is the characteristic appearance of a cold solder joint?',
@@ -4981,7 +4981,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 10,
             question: 'What is probably happening when an ohmmeter, connected across an unpowered circuit, initially indicates a low resistance and then shows increasing resistance with time?',
@@ -4995,7 +4995,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 11,
             question: 'Which of the following precautions should be taken when measuring circuit resistance with an ohmmeter?',
@@ -5009,7 +5009,7 @@ exports.seed = function (knex) {
         },
         {
             class: 0,
-            subelement: 7,
+            subelement: 'T7',
             section: 3,
             question_number: 12,
             question: 'Which of the following precautions should be taken when measuring high voltages with a voltmeter?',
@@ -5025,7 +5025,7 @@ exports.seed = function (knex) {
 
        {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 1,
         question: 'Which of the following is a form of amplitude modulation?',
@@ -5039,7 +5039,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 2,
         question: 'What type of modulation is most commonly used for VHF packet radio transmissions?',
@@ -5053,7 +5053,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 3,
         question: 'Which type of voice mode is most often used for long-distance (weak signal) contacts on the VHF and UHF bands?',
@@ -5067,7 +5067,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 4,
         question: 'Which type of modulation is most commonly used for VHF and UHF voice repeaters?',
@@ -5081,7 +5081,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 5,
         question: 'Which of the following types of emission has the narrowest bandwidth?',
@@ -5095,7 +5095,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 6,
         question: 'Which sideband is normally used for 10 meter HF, VHF, and UHF singlesideband communications?',
@@ -5109,7 +5109,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 7,
         question: 'What is an advantage of single sideband (SSB) over FM for voice transmissions?',
@@ -5123,7 +5123,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 8,
         question: 'What is the approximate bandwidth of a single sideband (SSB) voice signal?',
@@ -5137,7 +5137,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 9,
         question: 'What is the approximate bandwidth of a VHF repeater FM phone signal?',
@@ -5151,7 +5151,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 10,
         question: 'What is the typical bandwidth of analog fast-scan TV transmissions on the 70 centimeter band?',
@@ -5165,7 +5165,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 0,
         question_number: 11,
         question: 'What is the approximate maximum bandwidth required to transmit a CW signal?',
@@ -5183,7 +5183,7 @@ exports.seed = function (knex) {
 
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 1,
         question: 'What telemetry information is typically transmitted by satellite beacons?',
@@ -5197,7 +5197,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 2,
         question: 'What is the impact of using too much effective radiated power on a satellite uplink?',
@@ -5211,7 +5211,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 3,
         question: 'Which of the following are provided by satellite tracking programs?',
@@ -5225,7 +5225,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 4,
         question: 'What mode of transmission is commonly used by amateur radio satellites?',
@@ -5239,7 +5239,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 5,
         question: 'What is a satellite beacon?',
@@ -5253,7 +5253,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 6,
         question: 'Which of the following are inputs to a satellite tracking program?',
@@ -5267,7 +5267,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 7,
         question: 'With regard to satellite communications, what is Doppler shift?',
@@ -5281,7 +5281,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 8,
         question: 'What is meant by the statement that a satellite is operating in mode U/V?',
@@ -5295,7 +5295,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 9,
         question: 'What causes spin fading of satellite signals?',
@@ -5309,7 +5309,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 10,
         question: 'What do the initials LEO tell you about an amateur satellite?',
@@ -5323,7 +5323,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 11,
         question: 'Who may receive telemetry from a space station?',
@@ -5337,7 +5337,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 1,
         question_number: 12,
         question: 'Which of the following is a good way to judge whether your uplink power is neither too low nor too high?',
@@ -5355,7 +5355,7 @@ exports.seed = function (knex) {
 
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 1,
         question: 'Which of the following methods is used to locate sources of noise interference or jamming?',
@@ -5369,7 +5369,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 2,
         question: 'Which of these items would be useful for a hidden transmitter hunt?',
@@ -5383,7 +5383,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 3,
         question: 'What operating activity involves contacting as many stations as possible during a specified period?',
@@ -5397,7 +5397,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 4,
         question: 'Which of the following is good procedure when contacting another station in a radio contest?',
@@ -5411,7 +5411,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 5,
         question: 'What is a grid locator?',
@@ -5425,7 +5425,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 6,
         question: 'How is access to some IRLP nodes accomplished?',
@@ -5439,7 +5439,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 7,
         question: 'What is meant by Voice Over Internet Protocol (VoIP) as used in amateur radio?',
@@ -5453,7 +5453,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 8,
         question: 'What is the Internet Radio Linking Project (IRLP)?',
@@ -5467,7 +5467,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 9,
         question: 'How might you obtain a list of active nodes that use VoIP?',
@@ -5481,7 +5481,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 10,
         question: 'What must be done before you may use the EchoLink system to communicate using a repeater?',
@@ -5495,7 +5495,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 2,
         question_number: 11,
         question: 'What name is given to an amateur radio station that is used to connect other amateur stations to the internet?',
@@ -5510,7 +5510,7 @@ exports.seed = function (knex) {
     /////////////////////////////////////////////////////// section D
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 1,
         question: 'Which of the following is a digital communications mode?',
@@ -5524,7 +5524,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 2,
         question: 'What does the term "APRS" mean?',
@@ -5538,7 +5538,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 3,
         question: 'Which of the following devices is used to provide data to the transmitter when sending automatic position reports from a mobile amateur radio station?',
@@ -5552,7 +5552,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 4,
         question: 'What type of transmission is indicated by the term "NTSC"?',
@@ -5566,7 +5566,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 5,
         question: 'Which of the following is an application of APRS (Automatic Packet Reporting System)?',
@@ -5580,7 +5580,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 6,
         question: 'What does the abbreviation "PSK" mean?',
@@ -5594,7 +5594,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 7,
         question: 'Which of the following best describes DMR (Digital Mobile Radio)?',
@@ -5608,7 +5608,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 8,
         question: 'Which of the following may be included in packet transmissions?',
@@ -5622,7 +5622,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 9,
         question: 'What code is used when sending CW in the amateur bands?',
@@ -5636,7 +5636,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 10,
         question: 'Which of the following operating activities is supported by digital mode software in the WSJT suite?',
@@ -5650,7 +5650,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 11,
         question: 'What is an ARQ transmission system?',
@@ -5664,7 +5664,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 12,
         question: 'Which of the following best describes Broadband-Hamnet(TM), also referred to as a high-speed multi-media network?',
@@ -5678,7 +5678,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 13,
         question: 'What is FT8?',
@@ -5692,7 +5692,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 8,
+        subelement: 'T8',
         section: 3,
         question_number: 14,
         question: 'What is an electronic keyer?',
@@ -5708,7 +5708,7 @@ exports.seed = function (knex) {
 
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 1,
         question: 'What is a beam antenna?',
@@ -5722,7 +5722,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 2,
         question: 'Which of the following describes a type of antenna loading?',
@@ -5736,7 +5736,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 3,
         question: 'Which of the following describes a simple dipole oriented parallel to the Earth\'s surface?',
@@ -5750,7 +5750,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 4,
         question: 'What is a disadvantage of the "rubber duck" antenna supplied with most handheld radio transceivers when compared to a full-sized quarter-wave antenna?',
@@ -5764,7 +5764,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 5,
         question: 'How would you change a dipole antenna to make it resonant on a higher frequency?',
@@ -5778,7 +5778,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 6,
         question: 'What type of antennas are the quad, Yagi, and dish?',
@@ -5792,7 +5792,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 7,
         question: 'What is a disadvantage of using a handheld VHF transceiver, with its integral antenna, inside a vehicle?',
@@ -5806,7 +5806,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 8,
         question: 'What is the approximate length, in inches, of a quarter-wavelength vertical antenna for 146 MHz?',
@@ -5820,7 +5820,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 9,
         question: 'What is the approximate length, in inches, of a half-wavelength 6 meter dipole antenna?',
@@ -5834,7 +5834,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 10,
         question: 'In which direction does a half-wave dipole antenna radiate the strongest signal?',
@@ -5848,7 +5848,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 11,
         question: 'What is the gain of an antenna?',
@@ -5862,7 +5862,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 0,
         question_number: 12,
         question: 'What is an advantage of using a properly mounted 5/8 wavelength antenna for VHF or UHF mobile service?',
@@ -5880,7 +5880,7 @@ exports.seed = function (knex) {
 
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 1,
         question: 'Why is it important to have low SWR when using coaxial cable feed line?',
@@ -5894,7 +5894,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 2,
         question: 'What is the impedance of most coaxial cables used in amateur radio installations?',
@@ -5908,7 +5908,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 3,
         question: 'Why is coaxial cable the most common feed line selected for amateur radio antenna systems?',
@@ -5922,7 +5922,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 4,
         question: 'What is the major function of an antenna tuner (antenna coupler)?',
@@ -5936,7 +5936,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 5,
         question: 'In general, what happens as the frequency of a signal passing through coaxial cable is increased?',
@@ -5950,7 +5950,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 6,
         question: 'Which of the following connectors is most suitable for frequencies above 400 MHz?',
@@ -5964,7 +5964,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 7,
         question: 'Which of the following is true of PL-259 type coax connectors?',
@@ -5978,7 +5978,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 8,
         question: 'Why should coax connectors exposed to the weather be sealed against water intrusion?',
@@ -5992,7 +5992,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 9,
         question: 'What can cause erratic changes in SWR readings?',
@@ -6006,7 +6006,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 10,
         question: 'What is the electrical difference between RG-58 and RG-8 coaxial cable?',
@@ -6020,7 +6020,7 @@ exports.seed = function (knex) {
     },
     {
         class: 0,
-        subelement: 9,
+        subelement: 'T9',
         section: 1,
         question_number: 11,
         question: 'Which of the following types of feed line has the lowest loss at VHF and UHF?',
