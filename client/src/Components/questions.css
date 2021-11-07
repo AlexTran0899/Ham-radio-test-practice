@@ -1,3 +1,4 @@
+
 .questions {
   display: flex;
   flex-direction: column;
@@ -9,6 +10,8 @@
 .questions h1 {
   font-size: 24px;
   margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 .answerButton button {
   text-align: left;
@@ -20,6 +23,8 @@
   background-color: white;
   border: 1px solid black;
   transition: 0.2s all;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 .answerButton button:hover {
   cursor: pointer;
@@ -41,6 +46,8 @@
   transition: 0.1s all;
   background-color: white;
   border: 1px solid black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 .nav-button button:hover {
   cursor: pointer;
@@ -49,4 +56,6 @@
 }
 .switch {
   display: flex;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }

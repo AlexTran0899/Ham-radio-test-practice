@@ -98,7 +98,7 @@ const Questions = () => {
             window.speechSynthesis.speak(msg);
         }
 
-    }, [currentquestion,textToSpeechSetting])
+    }, [currentquestion, textToSpeechSetting])
 
     return (
 
@@ -107,9 +107,8 @@ const Questions = () => {
 
                 <div>
                     <div className='switch'>
-                        <p>Read question: </p>
-                        <Switch onChange={onChange} style={{ width: '20px' }} />
                     </div>
+                    <Switch onChange={onChange} style={{ width: '20px' }} />
                     <div className='answerButton'>
 
                         <h1>{currentQuestionData.question}</h1>
