@@ -6,6 +6,7 @@ import { Switch } from 'antd';
 const Questions = () => {
     const { push } = useHistory();
     const value = JSON.parse(window.localStorage.getItem('questions'))
+    const [nextButtonState, setNextButtonState] = useState(false)
     const [textToSpeechSetting, setTextToSpeechSetting] = useState(false)
     const localStorageCurrentQuestions = window.localStorage.getItem('currentQuestion') / 1
     const [currentquestion, setcurrentquestion] = useState(0)
@@ -15,11 +16,13 @@ const Questions = () => {
     'B'${currentQuestionData?.B}
     'C'${currentQuestionData?.C}
     'D'${currentQuestionData?.D}`
+    const correctStyle = { backgroundColor: '#7dff86' }
+    const incorrectStyle = { color: 'gray', backgroundColor: '#f2f2f2' }
     const [A, setA] = useState(null)
     const [B, setB] = useState(null)
     const [C, setC] = useState(null)
     const [D, setD] = useState(null)
-    
+
     if (!value) {
         push('/')
     }
@@ -30,54 +33,49 @@ const Questions = () => {
         setD(null)
         setcurrentquestion(currentquestion + 1)
         window.localStorage.setItem('currentQuestion', currentquestion + 1)
+        setNextButtonState(false)
     }
-    const previousQuestions = () => {
-        setA(null)
-        setB(null)
-        setC(null)
-        setD(null)
-        setcurrentquestion(currentquestion - 1)
-        window.localStorage.setItem('currentQuestion', currentquestion - 1)
-    }
-
     const checkAnswer = (answer) => {
         if (answer === currentQuestionData.correct_answer) {
+            window.speechSynthesis.cancel();
+            setNextButtonState(true)
+
             if (answer === 'A') {
-                setA('green')
-                setB('gray')
-                setC('gray')
-                setD('gray')
+                setA(correctStyle)
+                setB(incorrectStyle)
+                setC(incorrectStyle)
+                setD(incorrectStyle)
             }
             if (answer === 'B') {
-                setA('gray')
-                setB('green')
-                setC('gray')
-                setD('gray')
+                setA(incorrectStyle)
+                setB(correctStyle)
+                setC(incorrectStyle)
+                setD(incorrectStyle)
             }
             if (answer === 'C') {
-                setA('gray')
-                setB('gray')
-                setC('green')
-                setD('gray')
+                setA(incorrectStyle)
+                setB(incorrectStyle)
+                setC(correctStyle)
+                setD(incorrectStyle)
             }
             if (answer === 'D') {
-                setA('gray')
-                setB('gray')
-                setC('gray')
-                setD('green')
+                setA(incorrectStyle)
+                setB(incorrectStyle)
+                setC(incorrectStyle)
+                setD(correctStyle)
             }
         } else {
             if (answer === 'A') {
-                setA('gray')
+                setA(incorrectStyle)
             }
             if (answer === 'B') {
-                setB('gray')
+                setB(incorrectStyle)
             }
             if (answer === 'C') {
-                setC('gray')
+                setC(incorrectStyle)
             }
             if (answer === 'D') {
-                setD('gray')
+                setD(incorrectStyle)
             }
 
         }
@@ -100,7 +98,7 @@ const Questions = () => {
             window.speechSynthesis.speak(msg);
         }
 
-    }, [textToSpeechSetting, currentquestion])
+    }, [currentquestion,textToSpeechSetting])
 
     return (
 
@@ -112,18 +110,20 @@ const Questions = () => {
                         <p>Read question: </p>
                         <Switch onChange={onChange} style={{ width: '20px' }} />
                     </div>
-                    <h1>{currentQuestionData.question}</h1>
-                    <button style={{ color: A }} onClick={() => checkAnswer('A')}>A. {currentQuestionData.A}</button>
-                    <br />
-                    <button style={{ color: B }} onClick={() => checkAnswer('B')}>B. {currentQuestionData.B}</button>
-                    <br />
-                    <button style={{ color: C }} onClick={() => checkAnswer('C')}>C. {currentQuestionData.C}</button>
-                    <br />
-                    <button style={{ color: D }} onClick={() => checkAnswer('D')}>D. {currentQuestionData.D}</button>
-                    <br />
+                    <div className='answerButton'>
+
+                        <h1>{currentQuestionData.question}</h1>
+                        <button style={A} onClick={() => checkAnswer('A')}>A. {currentQuestionData.A}</button>
+                        <br />
+                        <button style={B} onClick={() => checkAnswer('B')}>B. {currentQuestionData.B}</button>
+                        <br />
+                        <button style={C} onClick={() => checkAnswer('C')}>C. {currentQuestionData.C}</button>
+                        <br />
+                        <button style={D} onClick={() => checkAnswer('D')}>D. {currentQuestionData.D}</button>
+                        <br />
+                    </div>
                     <div className='nav-button'>
-                        <button onClick={previousQuestions}>back</button>
-                        <button style={{ marginLeft: '20px' }} onClick={nextQuestions}>next</button>
+                        {nextButtonState && <button onClick={nextQuestions}>next</button>}
                     </div>
                 </div>
             }
