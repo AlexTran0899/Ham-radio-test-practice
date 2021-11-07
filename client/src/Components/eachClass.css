@@ -6,10 +6,11 @@
 .eachClass .subelement {
   margin: 10px;
   width: 300px;
-  height: 70px;
   border: 1px solid black;
   text-align: center;
-  font-size: large;
+  font-size: 20px;
+  font-family: lato;
+  font-weight: 700;
   transition: .1s all;
 }
 .eachClass .subelement:hover {

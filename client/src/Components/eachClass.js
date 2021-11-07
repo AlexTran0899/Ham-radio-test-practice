@@ -23,7 +23,7 @@ const EachClass = (props) => {
     return (
         <div className='eachClass'>
             {data?.map(each =>
-                <div onClick={() => redirectToSubelement(each)} className='subelement'>{each.subelement_Title}</div>
+                <h1 onClick={() => redirectToSubelement(each)} className='subelement'>{each.subelement_Title}</h1>
             )}
         </div>
     );
