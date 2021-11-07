@@ -13,6 +13,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-speech": "^1.0.2",
+    "react-switch": "^6.0.0",
     "readandspeech": "^0.0.7",
     "web-vitals": "^1.0.1"
   },
