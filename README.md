@@ -1,3 +1,4 @@
 https://hamstudy.herokuapp.com
 
-![IMG_0150](https://user-images.githubusercontent.com/76791231/138742483-553e8cb1-1e51-4a59-ba31-6050d5c84f4f.JPG)
+
+<img width="1440" alt="Screen Shot 2021-11-06 at 10 05 33 PM" src="https://user-images.githubusercontent.com/76791231/140630912-5ca0760a-3339-4fed-8670-46cd97fe816f.png">
