@@ -3,7 +3,6 @@
 }
 .classes {
   display: flex;
-  margin-top: 15px;
   justify-content: space-around;
   flex-wrap: wrap;
   font-family: lato;
@@ -17,6 +16,7 @@
   font-family: lato;
   font-weight: 400;
   width: 31vw;
+  margin:15px;
 }
 .classButton h1 {
   font-size: 30px;

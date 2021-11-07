@@ -28,3 +28,9 @@
   box-shadow: 1px 2px#444;
   transform: translate(2px, 5px);
 }
+.classTitle{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: lato;
+  text-align: center;
+}

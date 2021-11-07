@@ -5,6 +5,7 @@ import './eachClass.css'
 
 const EachClass = (props) => {
     const { push } = useHistory();
+    const current = window.location.href.slice(22,)
     const [data, setData] = useState(null)
     const redirectToSubelement = (subelement) => {
         window.localStorage.setItem('questions', JSON.stringify(subelement))
@@ -21,10 +22,13 @@ const EachClass = (props) => {
         }
     }, [props])
     return (
-        <div className='eachClass'>
-            {data?.map(each =>
-                <h1 onClick={() => redirectToSubelement(each)} className='subelement'>{each.subelement_Title}</h1>
-            )}
+        <div>
+            <h1 className='classTitle'>{current}</h1>
+            <div className='eachClass'>
+                {data?.map(each =>
+                    <h1 onClick={() => redirectToSubelement(each)} className='subelement'>{each.subelement_Title}</h1>
+                )}
+            </div>
         </div>
     );
 };
