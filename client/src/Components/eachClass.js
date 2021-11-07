@@ -5,7 +5,7 @@ import './eachClass.css'
 
 const EachClass = (props) => {
     const { push } = useHistory();
-    const current = window.location.href.slice(22,)
+    const current = window.location.pathname.slice(1,)
     const [data, setData] = useState(null)
     const redirectToSubelement = (subelement) => {
         window.localStorage.setItem('questions', JSON.stringify(subelement))
