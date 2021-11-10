@@ -1,8 +1,6 @@
-.classouter {
-  transition: all 0.3s;
-}
 .classes {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
   font-family: lato;
@@ -10,18 +8,15 @@
 .classButton {
   font-size: 20px;
   border: 1px solid black;
-  padding: 10px;
-  min-width: 300px;
-  min-height: 300px;
   font-family: lato;
   font-weight: 400;
-  width: 31vw;
+  width: 20ch;
   margin:15px;
+  transition: all 0.1s;
 }
 .classButton h1 {
   font-size: 30px;
   text-align: center;
-  border-bottom: 2px solid black;
   font-weight: 700;
 }
 .classButton:hover {
